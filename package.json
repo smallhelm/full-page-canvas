@@ -1,6 +1,6 @@
 {
   "name": "full-page-canvas",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Mount an HTML5 canvas to the full width and height of the web page. When the page is resized the canvas resizes too.",
   "author": "smallhelm",
   "license": "MIT",
@@ -15,7 +15,7 @@
   "keywords": [
     "html5",
     "canvas",
-    "cli"
+		"fullscreen"
   ],
   "main": "index.js",
   "files": [
