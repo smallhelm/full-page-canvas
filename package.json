@@ -1,0 +1,30 @@
+{
+  "name": "full-page-canvas",
+  "version": "0.0.0",
+  "description": "Mount an HTML5 canvas to the full width and height of the web page. When the page is resized the canvas resizes too.",
+  "author": "smallhelm",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smallhelm/full-page-canvas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smallhelm/full-page-canvas/issues"
+  },
+  "homepage": "https://github.com/smallhelm/full-page-canvas",
+  "keywords": [
+    "html5",
+    "canvas",
+    "cli"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "uglify-js": "^2.4.15"
+  },
+  "scripts": {
+    "build": "uglifyjs index.js -cm > full-page-canvas.min.js"
+  }
+}
