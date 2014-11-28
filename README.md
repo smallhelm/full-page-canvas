@@ -46,7 +46,7 @@ var canvas = FULL_PAGE_CANVAS.mount();
 ...
 ```
 
-## With require.js
+## With RequireJS
 
 ```js
 require(['full-page-canvas'], function(c) {
