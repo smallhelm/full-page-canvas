@@ -33,7 +33,7 @@ var canvas = require('full-page-canvas').mount();
 ...
 ```
 
-## With a <script> include
+## With a script tag
 
 Download [this](https://github.com/smallhelm/full-page-canvas/blob/master/full-page-canvas.min.js) script then include it in your html
 ```html
