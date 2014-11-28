@@ -1,6 +1,6 @@
 # What it does
 
-Mount a HTML5 canvas to the full width and height of the web page. When the page is resized the canvas resizes too.
+Mount an HTML5 canvas to the full width and height of the web page. When the page is resized the canvas resizes too.
 
 Usefull for graphic visulizations or games that want to simply use the canvas to controll the entire page.
 
