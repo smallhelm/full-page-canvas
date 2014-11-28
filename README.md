@@ -8,11 +8,11 @@ Your html is just a blank page that includes your javascript.
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<script src="main.js"></script>
-	</head>
-	<body></body>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <script src="main.js"></script>
+</head>
+<body></body>
 </html>
 ```
 Then call `mount` on this library and it  will inject a `<canvas>` element into the `<body>` and return it so you can use it.
